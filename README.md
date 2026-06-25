@@ -2,6 +2,12 @@
 
 ShopHub is a modern frontend e-commerce website built using **HTML, CSS, and JavaScript**.  
 It includes product listing, cart system, wishlist feature, and checkout functionality using localStorage.
+---
+
+##  Live Demo
+https://sanjeev-kumar80.github.io/shophub-ecommerce/
+
+---
 
 ---
 
