@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+    }
+
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .about-section {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .about-section img {
+      width: 45%;
+      border-radius: 10px;
+    }
+
+    .about-text {
+      width: 55%;
+    }
+
+    .about-text h2 {
+      color: #1e3a8a;
+    }
+
+    .team {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .team-members {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .avatar {
+      width: 70px;
+      height: 70px;
+      margin: auto;
+      border-radius: 50%;
+      background: #1e3a8a;
+      color: white;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>About Our Website</h1>
+</header>
+
+<div class="container">
+
+  <!-- About Section -->
+  <div class="about-section">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="about image">
+
+    <div class="about-text">
+      <h2>Who We Are</h2>
+      <p>
+        We are a creative team building modern and responsive websites. 
+        Our goal is to provide high quality web solutions for students, startups and businesses.
+      </p>
+      <p>
+        We focus on clean design, fast performance and user-friendly experience.
+      </p>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <div class="team">
+    <h2>Our Team</h2>
+
+    <div class="team-members">
+
+      <div class="card">
+        <div class="avatar">A</div>
+        <h3>Arjun</h3>
+        <p>Frontend Developer</p>
+      </div>
+
+      <div class="card">
+        <div class="avatar">R</div>
+        <h3>Rohit</h3>
+        <p>Backend Developer</p>
+      </div>
+
+      <div class="card">
+        <div class="avatar">S</div>
+        <h3>Sneha</h3>
+        <p>UI/UX Designer</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
