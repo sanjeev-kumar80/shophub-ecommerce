@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+ShopHub
+</div>
+
+<div class="nav-links">
+<a href="index.html">🏠 Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">🛒 Cart</a>
+</div>
+
+</nav>
+
+<section class="products">
+
+<h1 style="text-align:center;">
+Checkout
+</h1>
+
+<form id="checkoutForm">
+
+<input
+type="text"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+placeholder="Email"
+required>
+
+<input
+type="text"
+placeholder="Address"
+required>
+
+<input
+type="text"
+placeholder="Phone Number"
+required>
+
+<button type="submit">
+Place Order
+</button>
+
+</form>
+
+</section>
+
+<footer class="footer">
+<p>© 2026 ShopHub | All Rights Reserved</p>
+</footer>
+
+<script>
+
+document
+.getElementById(
+"checkoutForm"
+)
+.addEventListener(
+"submit",
+function(e){
+
+e.preventDefault();
+
+alert(
+"🎉 Order Placed Successfully!"
+);
+
+localStorage.removeItem(
+"cart"
+);
+
+window.location =
+"index.html";
+
+});
+
+</script>
+
+</body>
+</html>
