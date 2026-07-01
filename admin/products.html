@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Products | ShopHub</title>
+
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <h2>ShopHub</h2>
+
+    <a href="dashboard.html">🏠 Dashboard</a>
+
+    <a href="products.html">🛍 Products</a>
+
+    <a href="orders.html">📦 Orders</a>
+
+    <a href="users.html">👥 Users</a>
+
+</div>
+
+<div class="main">
+
+<h1>Manage Products</h1>
+
+<div class="product-form">
+
+<input
+type="text"
+id="productName"
+placeholder="Product Name">
+
+<input
+type="number"
+id="productPrice"
+placeholder="Price">
+
+<input
+type="text"
+id="productCategory"
+placeholder="Category">
+
+<button id="addProduct">
+Add Product
+</button>
+
+</div>
+
+<br>
+
+<input
+type="text"
+id="search"
+placeholder="Search Product">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+
+<th>Name</th>
+
+<th>Price</th>
+
+<th>Category</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="productTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="../js/products-admin.js"></script>
+
+</body>
+
+</html>
