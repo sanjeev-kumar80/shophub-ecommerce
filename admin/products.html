@@ -13,21 +13,49 @@
 
 <div class="sidebar">
 
-    <h2>ShopHub</h2>
+    <div>
 
-    <a href="dashboard.html">🏠 Dashboard</a>
+        <h2>ShopHub</h2>
 
-    <a href="products.html">🛍 Products</a>
+        <a href="dashboard.html">🏠 Dashboard</a>
+        <a href="products.html" class="active">🛍 Products</a>
+        <a href="orders.html">📦 Orders</a>
+        <a href="users.html">👥 Users</a>
 
-    <a href="orders.html">📦 Orders</a>
+    </div>
 
-    <a href="users.html">👥 Users</a>
+    <button id="logoutBtn" class="logout-btn">
+        Logout
+    </button>
 
 </div>
 
 <div class="main">
 
 <h1>Manage Products</h1>
+
+<div class="top-bar">
+
+<input
+type="text"
+id="search"
+placeholder="Search product...">
+
+<select id="categoryFilter">
+
+<option value="">All Categories</option>
+
+<option>Electronics</option>
+
+<option>Fashion</option>
+
+<option>Shoes</option>
+
+<option>Accessories</option>
+
+</select>
+
+</div>
 
 <div class="product-form">
 
@@ -46,18 +74,16 @@ type="text"
 id="productCategory"
 placeholder="Category">
 
+<input
+type="text"
+id="productImage"
+placeholder="Image URL">
+
 <button id="addProduct">
 Add Product
 </button>
 
 </div>
-
-<br>
-
-<input
-type="text"
-id="search"
-placeholder="Search Product">
 
 <table>
 
@@ -65,7 +91,9 @@ placeholder="Search Product">
 
 <tr>
 
-<th>ID</th>
+<th>#</th>
+
+<th>Image</th>
 
 <th>Name</th>
 
@@ -73,7 +101,7 @@ placeholder="Search Product">
 
 <th>Category</th>
 
-<th>Action</th>
+<th>Actions</th>
 
 </tr>
 
