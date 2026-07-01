@@ -1,115 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ShopHub</title>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopHub</title>
 
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-<nav class="navbar">
+ <nav class="navbar">
 
-<div class="logo">
-ShopHub
-</div>
+    <div class="logo">
+        <a href="index.html">ShopHub</a>
+    </div>
 
-<div class="nav-links">
-    <a href="index.html">🏠 Home</a>
-    <a href="products.html">Products</a>
-    <a href="wishlist.html">❤️ Wishlist</a>
-    <a href="cart.html">🛒 Cart</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</div>
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+        >
+        <button id="searchBtn">🔍</button>
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">🏠 Home</a>
+
+        <a href="products.html">🛍 Products</a>
+
+        <a href="wishlist.html">
+            ❤️ Wishlist
+            <span id="wishlistCount">0</span>
+        </a>
+
+        <a href="cart.html">
+            🛒 Cart
+            <span id="cartCount">0</span>
+        </a>
+
+        <a href="about.html">About</a>
+
+        <a href="contact.html">Contact</a>
+
+        <a href="login.html" class="login-btn">
+            Login
+        </a>
+
+        <a href="signup.html" class="signup-btn">
+            Sign Up
+        </a>
+
+    </div>
 
 </nav>
 
-<section class="hero">
+  <section class="hero">
 
-<h1>Welcome To ShopHub</h1>
+  <h1>Welcome To ShopHub</h1>
 
-<p>
-Best Products At Best Prices
-</p>
+  <p>
+  Best Products At Best Prices
+  </p>
 
-<a href="products.html" class="btn">
-Shop Now
-</a>
+  <a href="products.html" class="btn">
+  Shop Now
+  </a>
 
-</section>
+  </section>
 
-<section class="products">
+  <section class="products">
 
-<h2 style="text-align:center;margin-bottom:20px;">
-Featured Products
-</h2>
+  <h2 style="text-align:center;margin-bottom:20px;">
+  Featured Products
+  </h2>
 
-<div class="product-grid">
+  <div class="product-grid">
 
-<div class="card">
+  <div class="card">
 
-<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+  <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
 
-<h3>Smart Watch</h3>
+  <h3>Smart Watch</h3>
 
-<p>₹4999</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">
-
-<h3>Headphones</h3>
-
-<p>₹1999</p>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
-
-<h3>Shoes</h3>
-
-<p>₹2999</p>
-
-</div>
-
-</div>
-
-</section>
-
-<footer class="footer">
-  <div class="footer-container">
-
-    <div class="footer-left">
-      <h2>ShopHub</h2>
-      <p>Best products at best prices. Simple, fast and reliable shopping experience.</p>
-    </div>
-
-    <div class="footer-links">
-      <h3>Quick Links</h3>
-      <a href="about.html">About Us</a>
-      <a href="contact.html">Contact Us</a>
-      <a href="products.html">Products</a>
-    </div>
-
-    <div class="footer-social">
-      <h3>Follow Us</h3>
-      <p>📘 Facebook</p>
-      <p>📸 Instagram</p>
-      <p>🐦 Twitter</p>
-    </div>
+  <p>₹4999</p>
 
   </div>
 
-  <div class="footer-bottom">
-    © 2026 ShopHub | All Rights Reserved
-  </div>
-</footer>
+  <div class="card">
 
-</body>
-</html>
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">
+
+  <h3>Headphones</h3>
+
+  <p>₹1999</p>
+
+  </div>
+
+  <div class="card">
+
+  <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+
+  <h3>Shoes</h3>
+
+  <p>₹2999</p>
+
+  </div>
+
+  </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-left">
+        <h2>ShopHub</h2>
+        <p>Best products at best prices. Simple, fast and reliable shopping experience.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="products.html">Products</a>
+      </div>
+
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <p>📘 Facebook</p>
+        <p>📸 Instagram</p>
+        <p>🐦 Twitter</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 ShopHub | All Rights Reserved
+    </div>
+  </footer>
+
+  </body>
+  </html>
