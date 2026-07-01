@@ -58,13 +58,29 @@
             Sign Up
         </a>
 
-        <div id="profileMenu" style="display:none;">
+        <div id="profileMenu" class="profile-menu" style="display:none;">
 
-            <a href="profile.html" id="userName">
-                👤 User
-            </a>
+    <button id="profileBtn">
+        👤 <span id="userName">User</span> ▼
+    </button>
 
-        </div>
+    <div class="dropdown" id="dropdown">
+
+        <a href="profile.html">👤 My Profile</a>
+
+        <a href="orders.html">📦 My Orders</a>
+
+        <a href="wishlist.html">❤️ Wishlist</a>
+
+        <a href="#">⚙ Settings</a>
+
+        <hr>
+
+        <a href="#" id="logoutBtn">🚪 Logout</a>
+
+    </div>
+
+</div>
 
     </div>
 
