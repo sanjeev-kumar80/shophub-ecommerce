@@ -9,7 +9,7 @@
   </head>
   <body>
 
- <nav class="navbar">
+<nav class="navbar">
 
     <div class="logo">
         <a href="index.html">ShopHub</a>
@@ -19,9 +19,11 @@
         <input
             type="text"
             id="searchInput"
-            placeholder="Search products..."
-        >
-        <button id="searchBtn">🔍</button>
+            placeholder="Search products...">
+
+        <button id="searchBtn">
+            🔍
+        </button>
     </div>
 
     <div class="nav-links">
@@ -44,13 +46,25 @@
 
         <a href="contact.html">Contact</a>
 
-        <a href="login.html" class="login-btn">
+    </div>
+
+    <div class="user-menu">
+
+        <a id="loginLink" href="login.html">
             Login
         </a>
 
-        <a href="signup.html" class="signup-btn">
+        <a id="signupLink" href="signup.html">
             Sign Up
         </a>
+
+        <div id="profileMenu" style="display:none;">
+
+            <a href="profile.html" id="userName">
+                👤 User
+            </a>
+
+        </div>
 
     </div>
 
@@ -140,6 +154,8 @@
       © 2026 ShopHub | All Rights Reserved
     </div>
   </footer>
+
+  <script src="js/navbar.js"></script>
 
   </body>
   </html>
